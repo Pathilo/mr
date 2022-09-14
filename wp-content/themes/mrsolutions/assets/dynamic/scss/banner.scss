@@ -1,0 +1,22 @@
+html {
+    font-size: 50px;
+    margin-top: 20px;
+    body {
+        display: grid;
+    }
+}
+
+.section-banner_ {
+    &inner {
+        &__button {}
+    }
+    .second_part {}
+}
+
+.btn {
+    color: #fff;
+    &--green {
+        @extend .btn;
+        background-color: red;
+    }
+}

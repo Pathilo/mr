@@ -2,6 +2,21 @@ html {
   display: flex;
 }
 
+html {
+  font-size: 50px;
+  margin-top: 20px;
+}
+html body {
+  display: grid;
+}
+
+.btn, .btn--green {
+  color: #fff;
+}
+.btn--green {
+  background-color: red;
+}
+
 body {
   display: flex;
   height: 100vh;
