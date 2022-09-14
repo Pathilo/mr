@@ -1,0 +1,14 @@
+html {
+    font-size: 50px;
+    body {
+        display: grid;
+    }
+}
+
+.btn {
+    color: #fff;
+    &--green {
+        @extend .btn;
+        background-color: red;
+    }
+}
